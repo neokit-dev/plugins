@@ -1,0 +1,13 @@
+{
+  "relational": {},
+  "buckets": {},
+
+  "d1": {
+    "requires": ["relational"],
+    "env": ["cloudflare", "cloudflare-workers"]
+  },
+  "r2": {
+    "requires": ["buckets"],
+    "env": ["cloudflare", "cloudflare-workers"]
+  }
+}
