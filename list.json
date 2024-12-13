@@ -1,12 +1,22 @@
 {
-  "relational": {},
-  "buckets": {},
+  "relational": {
+    "name": "Relational databases",
+    "icon": "\ue706"
+  },
+  "buckets": {
+    "name": "Storage buckets",
+    "icon": "\udb85\udc16"
+  },
 
   "d1": {
+    "name": "Cloudflare D1",
+    "icon": "\ue793",
     "requires": ["relational"],
     "env": ["cloudflare", "cloudflare-workers"]
   },
   "r2": {
+    "name": "Cloudflare R2",
+    "icon": "\ue792",
     "requires": ["buckets"],
     "env": ["cloudflare", "cloudflare-workers"]
   }
