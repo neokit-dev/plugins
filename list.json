@@ -1,22 +1,26 @@
 {
   "relational": {
     "name": "Relational databases",
-    "icon": "\ue706"
+    "icon": "\ue706",
+    "color": "4169e1"
   },
   "buckets": {
     "name": "Storage buckets",
-    "icon": "\udb85\udc16"
+    "icon": "\udb85\udc16",
+    "color": "569a31"
   },
 
   "d1": {
     "name": "Cloudflare D1",
     "icon": "\ue793",
+    "color": "f38020",
     "requires": ["relational"],
     "env": ["cloudflare", "cloudflare-workers"]
   },
   "r2": {
     "name": "Cloudflare R2",
     "icon": "\ue792",
+    "color": "f38020",
     "requires": ["buckets"],
     "env": ["cloudflare", "cloudflare-workers"]
   }
